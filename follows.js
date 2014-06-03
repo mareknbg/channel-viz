@@ -149,10 +149,10 @@
 										width: 600,
 										height: 200,
 										renderer: 'area',
-									        interpolation: 'step',
+									        interpolation: 'step-after',
 									        stroke: true,
 	                                                                        preserve: true,
-	                                                                        stack : 'zero',
+	                                                                        offset : 'wiggle',
 									        min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										/*
