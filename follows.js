@@ -16,7 +16,7 @@
 		defaultFeeds	= [708309428,259675843], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'IoT Markus', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
+		dataInterval	= 20, // Default interval for data to be displayed (in seconds)
 		dataColor		= '4d9bcb', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
