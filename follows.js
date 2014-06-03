@@ -149,7 +149,7 @@
 										width: 600,
 										height: 200,
 										renderer: 'area',
-									        interpolation: 'cardinal',
+									        interpolation: 'linear',
 									        stroke: true,
 	                                                                        preserve: true,
 									        min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
