@@ -149,7 +149,7 @@
 										width: 600,
 										height: 400,
 										renderer: 'area',
-									        interpolation: 'step-after',
+									        interpolation: 'cardinal',
 									        min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										padding: {
