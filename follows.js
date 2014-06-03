@@ -152,7 +152,7 @@
 									        interpolation: 'step-after',
 									        stroke: true,
 	                                                                        preserve: true,
-	                                                                        offset : 'wiggle',
+	                                                                        offset : 'value',
 									        min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										/*
