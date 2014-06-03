@@ -152,6 +152,7 @@
 									        interpolation: 'step',
 									        stroke: true,
 	                                                                        preserve: true,
+	                                                                        stack : 'zero',
 									        min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										/*
