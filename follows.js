@@ -83,7 +83,7 @@
 					var updated = new Date;
 					updated = updated.parseISO(datastream.at);
 					var diff = null;
-					if(duration == '1min') diff = 60;
+				
 					if(duration == '6hours') diff = 21600000;
 					 if(duration == '1day') diff = 86400000;
 					 if(duration == '1week') diff = 604800000;
@@ -331,13 +331,7 @@
 							$('#feed-' + data.id + ' .map').addClass('hidden');
 					}
 
-				       $('#feed-' + data.id + ' .duration-min').click(function() {
-						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '1min', 30);
-						return false;
-					});
-
-
+				     
 
 					$('#feed-' + data.id + ' .duration-hour').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
