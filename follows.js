@@ -158,7 +158,7 @@
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 									
 										padding: {
-											top: 0.02,
+											top: 0.00,
 											right: 0.02,
 											bottom: 0.00,
 											left: 0.02
