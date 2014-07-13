@@ -149,7 +149,7 @@
 										width: 600,
 										height: 200,
 										renderer: 'area',
-									        interpolation: 'step-after',
+									        interpolation: 'linear',
 									        stroke: true,
 	                                                                        preserve: true,
 	                                                                        offset : 'zero',
