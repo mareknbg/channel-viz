@@ -16,7 +16,7 @@
 		defaultFeeds	= [708309428,259675843], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Internet of Things', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds) 10800
+		dataInterval	= 1, // Default interval for data to be displayed (in seconds) 10800
 		dataColor		= '4d9bcb', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
 
@@ -189,7 +189,10 @@
 										graph: graph,
 										formatter: function(series, x, y) {
 											var swatch = '<span class="detail_swatch" style="background-color: ' + series.color + ' padding: 4px;"></span>';
-											var content = swatch + "&nbsp;&nbsp;" + parseFloat(y) + '°C&nbsp;&nbsp;<br>';
+											if(feedId ===259675843)
+											   var content = swatch + "&nbsp;&nbsp;" + parseFloat(y) + '&nbsp;&nbsp;<br>';
+											else
+											  var content = swatch + "&nbsp;&nbsp;" + parseFloat(y) + '°C&nbsp;&nbsp;<br>';
 											return content;
 										}
 									});
