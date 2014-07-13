@@ -331,6 +331,14 @@
 							$('#feed-' + data.id + ' .map').addClass('hidden');
 					}
 
+				       $('#feed-' + data.id + ' .duration-min').click(function() {
+						$('#loadingData').foundation('reveal', 'open');
+						updateFeeds(data.id, thisFeedDatastreams, '1min', 30);
+						return false;
+					});
+
+
+
 					$('#feed-' + data.id + ' .duration-hour').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
 						updateFeeds(data.id, thisFeedDatastreams, '6hours', 30);
