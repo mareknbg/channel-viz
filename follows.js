@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= '5WBy8ZAkxtRXFvzXsKtROKVRdU9iH6RwgLbXXi9tiOvwgy4N', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [259675843], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [708309428,259675843], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Internet of Things', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 1, // Default interval for data to be displayed (in seconds) 10800
