@@ -189,7 +189,7 @@
 										graph: graph,
 										formatter: function(series, x, y) {
 											var swatch = '<span class="detail_swatch" style="background-color: ' + series.color + ' padding: 4px;"></span>';
-											var content = swatch + "&nbsp;&nbsp;" + parseFloat(y) + '&nbsp;&nbsp;+" °C"<br>';
+											var content = swatch + "&nbsp;&nbsp;" + parseFloat(y) + '°C&nbsp;&nbsp;<br>';
 											return content;
 										}
 									});
