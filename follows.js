@@ -148,7 +148,7 @@
 										element: document.querySelector('#graph-' + feedId + '-' + datastream.id),
 										width: 600,
 										height: 200,
-										renderer: 'line',
+										renderer: 'area',
 									        interpolation: 'step-after',
 									        stroke: true,
 	                                                                        preserve: true,
