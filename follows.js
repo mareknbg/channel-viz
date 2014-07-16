@@ -264,11 +264,9 @@
 					$('#feed-' + data.id + ' .creator .value').html('<a href="' + data.creator + '">' + creator + '</a>');
 
 					// Date Updated
-					//$('#feed-' + data.id + ' .updated .value').html(data.updated);
+					$('#feed-' + data.id + ' .updated .value').html(data.updated);
 					
-					var updated = new Date;
 					
-                                        $('#feed-' + data.id + ' .updated .value').html(updated.parseISO(data.updated));  
 					// Tags
 					if(data.tags) {
 						$('#feed-' + data.id + ' .tags .value').html('<span class="radius secondary label">' + data.tags.join('</span> <span class="radius secondary label">') + '</span>');
