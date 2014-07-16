@@ -150,7 +150,7 @@
 									var graph = new Rickshaw.Graph( {
 										element: document.querySelector('#graph-' + feedId + '-' + datastream.id),
 										width: 600,
-										height: 400,
+										height: 300,
 										renderer: 'area',
 									        interpolation: 'cardinal',
 									        stroke: true,
