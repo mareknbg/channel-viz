@@ -81,9 +81,9 @@
 					var now = new Date();
 					var then = new Date();
 					var updated = new Date;
-					console.log(datastream.at);
+					//console.log(datastream.at);
 					updated = updated.parseISO(datastream.at);
-					console.log(updated);
+					//console.log(updated);
 					var diff = null;
 				
 					if(duration == '6hours') diff = 21600000;
