@@ -81,6 +81,7 @@
 					var now = new Date();
 					var then = new Date();
 					var updated = new Date;
+					console.log(datastream.at);
 					updated = updated.parseISO(datastream.at);
 					var diff = null;
 				
